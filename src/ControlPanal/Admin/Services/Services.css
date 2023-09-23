@@ -1,0 +1,40 @@
+.services-cp ul li  {
+  padding: 10px;
+  background-color: var(--bs-gray-300);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 10px auto;
+  color: var(--main-color);
+  list-style:revert;
+  min-width: 250px;
+  max-width: fit-content;
+  cursor: pointer;
+
+}
+/* .services-cp ul li {
+
+} */
+
+.services-cp ul li .edit-icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 10px;
+}
+.services-cp ul li svg {
+  /*margin-right: 10px;
+  */font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+.pro-input-div input , .pro-input-div textarea {
+  text-align: right;
+}

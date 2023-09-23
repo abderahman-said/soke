@@ -1,0 +1,75 @@
+.OrderProduct {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--bs-white);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 3px 12px #a7a7a72e;
+  cursor: pointer;
+}
+.OrderProduct p {
+  color: var(--main-color);
+}
+
+.OrderProduct .Product-right {
+  flex-basis: 30%;
+}
+.OrderProduct .Orderinfo {
+  flex-basis: 70%;
+  padding: 10px 30px;
+}
+.OrderProduct .Orderinfo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Orderinfo .submit-button {
+  width: fit-content;
+  margin:  0 !important;
+  padding: 10px 30px;
+}
+
+.OrderProduct .ProductCard .Card-img img {
+  height: 110px !important;
+}
+
+.OrderProduct .ProductCard .CardInfo {
+  width: 66%;
+}
+.Orderinfo .track {
+  text-align: right;
+}
+
+.Orderinfo .state {
+  border:  1px solid var(--main-color);
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  color: var(--main-color);
+  margin: 0;
+}
+
+@media (min-width: 10px) and (max-width: 765.98px) {  
+
+  .OrderProduct {
+    justify-content: center;
+  } 
+  .OrderProduct .Orderinfo {
+    flex-basis: 100%;
+  }
+  .OrderProduct .Product-right {
+    flex-basis: 100%;
+  }
+}

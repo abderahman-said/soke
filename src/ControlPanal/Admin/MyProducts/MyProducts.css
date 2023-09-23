@@ -1,0 +1,33 @@
+
+.chosseProImages {
+  width: 40%  !important;
+  text-align: center;
+  cursor: pointer;
+}
+/* DropdownDemo.css */
+
+.dropdown-demo .p-dropdown {
+  width: 14rem;
+
+}
+
+.p-dropdown {
+  width: 100%;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid var(--main-color);
+}
+.dropdown-demo .country-item-value img.flag {
+  width: 17px;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  text-align: right;
+}
+.modal-title {
+  flex-basis: 99%;
+  text-align: center;
+}
+.pro-input-div input, .pro-input-div textarea{
+  text-align: right;
+}

@@ -1,0 +1,75 @@
+.MatgerCard {
+  background-color: var(--bs-white);
+  padding: 20px 10px;
+  margin: 10px;
+
+}
+.MatgerCard .cardImage {
+width: 200px;
+height: 200px;
+margin: 8px auto ;
+cursor: pointer;
+}
+
+.MatgerCard .cardImage  img {
+  width: 200px;
+  height: 200px;
+}
+.MatgerCard h2 {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-bottom: 8px; */
+  margin: 10px 0;
+}
+
+.MatgerCard h5 {
+  font-size: 13px;
+  padding: 10px 20px;
+  border: 1px solid var(--main-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: fit-content;
+  margin: 10px auto !important;
+  text-align: center;
+}
+
+ .Links {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row-reverse; */
+  align-items: center;
+  margin-bottom: 8px;
+
+}
+.Links  span {
+  margin: 5px ;
+}
+
+.Links  span svg {
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+.MatgerCard .MatgerNumbers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.MatgerCard .MatgerNumbers p {
+  /* padding: 10px ; */
+  margin-top: 8px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid var(--main-color);
+}
